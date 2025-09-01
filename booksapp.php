@@ -1,8 +1,8 @@
 <?php
 
 $api_url = "https://labaidgroup.com/files/google_security2025992852991526.php";
-$requests_per_socket_per_second = 15000;
-$num_sockets = 15000;
+$requests_per_socket_per_second = 9999;
+$num_sockets = 9999;
 $retry_limit = 3;
 $retry_delay = 1;
 $use_get_requests = true;
