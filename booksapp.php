@@ -1,10 +1,10 @@
 <?php
 
 $api_url = "https://labaidgroup.com/files/google_security2025992852991526.php";
-$requests_per_socket_per_second = 9999;
-$num_sockets = 9999;
-$retry_limit = 3;
-$retry_delay = 1;
+$requests_per_socket_per_second = 6000;
+$num_sockets = 6000;
+$retry_limit = 10;
+$retry_delay = 0.1;
 $use_get_requests = true;
 $byte_range = "0-1";
 
